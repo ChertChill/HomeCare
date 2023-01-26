@@ -8,25 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <!-- ! Попробовать применить классы к Slide 4, 6, Cookies, Header и Footer -->
-    <!-- ! Добавить :hover к кнопкам -->
 
     <!-- Cookies -->
     <div id="cookies">
         <div id="cookies-desc">
             This website uses cookies to give you the best shopping experience. By continuing to browse the website we assume that you agree to the use of such cookies. Learn more about cookies and how we use them.
         </div>
-        <div id="cookies-button">
-            <div id="cookies-button-text">LEARN MORE</div>
-            <div id="cookies-button-line"></div>
-        </div>
+        
+        <a class="button underline" href="#">LEARN MORE</a>
+        
         <!-- ? Добавить крестик справа сверху -->
     </div>
 
     <!-- Header -->
     <header>
         <input id="logo-button" type="image" src="/img/logo.png">
+        
         <div id="header-right">
             <a id="cart-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">CART(0)</a>
             <input id="menu-button" type="image" src="/img/menu_button.png">
@@ -41,7 +38,7 @@
             <div class="slide-desc">
                 Let Power House Tui & Kahili uplift every space and surface that surrounds you, with&nbsp;each mist-filled pump.
             </div>
-            <div class="slide-button underline">SHOP NEW PRODUCT</div>
+            <a class="button underline" href="#">SHOP NEW PRODUCT</a>
         </div>
 
         <div class="slide-main">Take your home scent to another realm</div>
@@ -55,7 +52,7 @@
             <div class="slide-desc">
                 The flicker of the wick and the wafting of scent…Waxed Perfume is the simplest daily self-indulgence.
             </div>
-            <div class="slide-button underline">BROWSE OUR FULL COLLECTION</div>
+            <a class="button underline" href="#">BROWSE OUR FULL COLLECTION</a>
         </div>
 
         <img class="slide-img" src="/img/slide2_img.png" alt="Waxed Perfume">
@@ -65,15 +62,11 @@
     <!-- Slide 3 -->
     <div class="slide" id="s3">
         <div class="s3-parts" id="s3-part1">
-            <div class="slide-button underline">
-                DIALED TO 70% ALCOHOL
-            </div>
+            <a class="button underline" href="#">DIALED TO 70% ALCOHOL</a>
         </div>
 
         <div class="s3-parts" id="s3-part2">
-            <div class="slide-button underline">
-                REFILL WITH TOPUP
-            </div>
+            <a class="button underline" href="#">REFILL WITH TOPUP</a>
         </div>
     </div>
 
@@ -82,7 +75,7 @@
         <img src="/img/slide4_img.png" alt="Girl with lip punch">
         
         <div id="s4-main">
-            <div id="s4-side-header">ABOUT US</div>
+            <div class="slide-header">ABOUT US</div>
             <div id="s4-header">A modern day scent company</div>
             
             <div id="s4-desc1">
@@ -92,7 +85,7 @@
                 From Body, Hair, Home and Essential Cleaning, our products are crafted to be both beautiful and uplifting, practical and effective.
             </div>
             
-            <div id="s4-button" class="underline">READ MORE</div>
+            <a class="button underline" href="#">READ MORE</a>
         </div>
     </div>
 
@@ -104,14 +97,13 @@
             <div class="slide-desc">
                 Home Perfume does the hard work for you, offering a subtle yet consistent scent in your home, eliminating the need to have to scent ‘by hand’.
             </div>
-            <div class="slide-button underline">VIEW MORE</div>
+            <a class="button underline" href="#">VIEW MORE</a>
         </div>
         
         <img class="slide-img" src="/img/slide5_img.png" alt="Girl with reed diffuser">
         <div class="slide-main">Home Perfume</div>
     </div>
 
-    <!-- Slide 6 -->
     <div class="slide" id="s6">
         <div id="s6-main">
             <div id="s6-side-header">ROOM MIST</div>
@@ -121,7 +113,7 @@
                 Freshen tired surrounds with a boost of fresh scent with Power House Nine to Five. Blond Tobacco, cinders of burnt Birch laced with Geranium, Violet Leaves and the humble Tonka Bean.
             </div>
             
-            <div id="s6-button" class="underline">SHOP NINE TO FIVE</div>
+            <a class="button underline" href="#">SHOP NINE TO FIVE</a>
         </div>
     </div>
 
@@ -133,7 +125,7 @@
             <div class="slide-desc">
                 Botanical Hand Wash for use anytime/everyday. Bolstered with Aloe, Horopito and Grapefruit Seed!
             </div>
-            <div class="slide-button underline">SHOP OUR SCENTS</div>
+            <a class="button underline" href="#">SHOP OUR SCENTS</a>
         </div>
         
         <img class="slide-img" src="/img/slide7_img.png" alt="Botanical hand wash">
@@ -148,7 +140,7 @@
             <div class="slide-desc">
                 For the most particular of places, stamp out single-use with Hold Me by&nbsp;Ashley & Co®
             </div>
-            <div class="slide-button underline">READ MORE</div>
+            <a class="button underline" href="#">READ MORE</a>
         </div>
         
         <img class="slide-img" src="/img/slide8_img.png" alt="Girl with reed diffuser">
@@ -158,18 +150,22 @@
     <!-- Footer -->
     <div id="footer">
         <div id="footer-desc">Sign up to our newsletter and enrich your lives for good.</div>
+        
         <div id="footer-props">
             <div class="footer-inputs" id="footer-name">
-                <!-- ! Here might be textarea -->
+                <!-- ! There might be a textarea -->
                 <div class="inputs-line"></div>
                 <div class="inputs-text">Name</div>
             </div>
+            
             <div class="footer-inputs" id="footer-email">
-                <!-- ! Here might be textarea -->
+                <!-- ! There might be a textarea -->
                 <div class="inputs-line"></div>
                 <div class="inputs-text">Email</div>
             </div>
-            <div id="footer-button" class="underline">SUBMIT</div>
+            
+            <!-- ! There might be a button -->
+            <a class="button underline" href="#">SUBMIT</a> 
         </div>
     </div>
 </body>
