@@ -83,7 +83,7 @@ header {
     #s6 {
         height: 100%;
         
-        background-image: url(/img/slide6_img.png);
+        background-image: url(./img/slide6_img.png);
         background-size: cover;
         background-position: 50%;
     }
@@ -252,14 +252,14 @@ header {
     #s3-part1 {
         left: 0%;
         right: 50%;
-        background-image: url('/img/slide3_img1.png');
+        background-image: url('./img/slide3_img1.png');
     }
     
     #s3-part2 {
         left: 50%;
         right: 0%;
         
-        background-image: url('/img/slide3_img2.png');
+        background-image: url('./img/slide3_img2.png');
     }
 
 /* Slide 4 */
